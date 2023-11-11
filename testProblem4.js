@@ -1,6 +1,8 @@
-import {problem4} from './problem4.js';
-import { inventory } from './data.js';
+import { problem4 } from "./problem4.js";
+import { inventory } from "./data.js";
 
- export let res4=problem4(inventory);
+export let res4 = problem4(inventory);
 
-console.log("All years: ",res4);
+if (import.meta.url === import.meta.main) {
+  console.log("All years: ", res4);
+}
